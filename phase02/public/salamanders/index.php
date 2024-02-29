@@ -24,7 +24,7 @@ id=4,  salamanderName= Slimy Salamander
 
 <h1>Salamanders Main Page</h1>
 
-  <a href="#">Create a Salamander</a>
+  <a href="<?php echo url_for('/salamanders/new.php') ?>">Create a Salamander</a>
 
 <table>
   <tr>
@@ -43,7 +43,7 @@ id=4,  salamanderName= Slimy Salamander
           <td><?php echo h($salamander['id']); ?></td>
           <td><?php echo h($salamander['name']); ?></td>
           <td><a href="<?php echo url_For('/salamanders/show.php?id=' . h(u($salamander['id']))); ?>">View</a></td>
-          <td><a href="#">Edit</a></td>
+          <td><a href="<?php echo url_for('/salamanders/edit.php?id=' . h(u($salamander['id']))); ?>">Edit</a></td>
           <td><a href="#">Delete</a></td>
     	  </tr>
       <?php } ?>
