@@ -1,4 +1,5 @@
-<?php 
+<?php
+ 
 require_once('db_credentials.php');
   
 function db_connect() {
@@ -27,4 +28,5 @@ function confirm_result_set($result_set) {
     exit("Database query failed.");
   }
 }
+  
 ?>
