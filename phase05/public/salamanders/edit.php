@@ -31,10 +31,10 @@
 ?>
 
 <?php 
-require_once('../../private/initialize.php');
 
 $pageTitle = 'Salamander Details';
 include(SHARED_PATH . '/salamander-header.php');
+
 ?>
 
 <p><a href="<?php echo url_For('/salamanders/index.php'); ?>">&laquo; Back to List</a></p>
