@@ -6,6 +6,7 @@
 // Credentials
 $dbhost = 'SERVER NAME';
 $dbuser = 'USER NAME';
+$dbpass = 'PASSWORD';
 $dbname = 'DATABASE NAME';
 
 // 1. Create a database connection
