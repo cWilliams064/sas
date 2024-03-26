@@ -4,10 +4,9 @@
 // of database interaction using PHP.
 
 // Credentials
-$dbhost = 'localhost';
-$dbuser = 'cwilliams';
-$dbpass = 'Allysawsome11@';
-$dbname = 'globe_bank';
+$dbhost = 'SERVER NAME';
+$dbuser = 'USER NAME';
+$dbname = 'DATABASE NAME';
 
 // 1. Create a database connection
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
